@@ -22,7 +22,7 @@ app.use('/api/theaters', theaterRoutes);
 app.use('/api/showtimes', showtimeRoutes);
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('welcome');
 }
 )
 
